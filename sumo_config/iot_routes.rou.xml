@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-03 16:26:57 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" from="E4" to="E10" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_1" begin="0.00" color="grey" from="E4" to="E9.44" via="E6 E8" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_2" begin="0.00" color="white" from="-E9" to="-E9.45" end="3600.00" vehsPerHour="500"/>
+    <flow id="f_4" begin="0.00" color="red" from="-E9" to="-E4" via="-E8 -E6" end="3600.00" vehsPerHour="500"/>
+    <flow id="f_5" begin="0.00" color="white" from="E9" to="-E4" via="-E8 -E6" end="3600.00" vehsPerHour="500"/>
+    <flow id="f_6" begin="0.00" color="green" from="E9" to="E9.44" end="3600.00" vehsPerHour="500"/>
+    <flow id="f_7" begin="0.00" color="green" from="E4" to="-E9.45" via="E6 E8" end="3600.00" vehsPerHour="500"/>
+    <person id="p_1" depart="0.00">
+        <stop edge="E6" endPos="0.17" duration="60.00"/>
+    </person>
+    <person id="p_3" depart="0.00">
+        <stop edge="-E4" endPos="0.56" duration="60.00"/>
+    </person>
+    <personFlow id="p_0" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="E10" endPos="1.25" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_2" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="-E6" endPos="40.08" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_4" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="E4" endPos="53.91" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_5" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="-E6" endPos="0.38" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_6" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="E6" endPos="39.52" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_7" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="-E8" endPos="49.40" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_8" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="E8" endPos="0.67" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="p_9" begin="0.00" end="3600.00" personsPerHour="1800">
+        <stop edge="E6" endPos="0.05" duration="60.00" until="0.00"/>
+    </personFlow>
+    <personFlow id="pf_0" begin="0.00" end="3600.00" personsPerHour="500">
+        <stop edge="-E4" endPos="1.02" duration="60.00"/>
+    </personFlow>
+</routes>
