@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="iot_network.net.xml" />
+        <route-files value="iot_routes.rou.xml" />
+        <additional-files value="iot_detectors.add.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="1000" />
+    </time>
+</configuration>
