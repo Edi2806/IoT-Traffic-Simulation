@@ -1,6 +1,7 @@
 # 🚦 IoT Traffic Simulation
 
 A smart traffic control simulation using **SUMO**, **MQTT**, **Node-RED**, and **Python** to analyze and optimize urban traffic flow. This project demonstrates how IoT sensors can monitor vehicle activity and publish real-time data for visualization and analysis.
+
 ![System Overview](docs/Screenshot 2025-05-07 181539.png)
 
 ---
