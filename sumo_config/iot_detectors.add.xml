@@ -1,0 +1,6 @@
+<additional>
+  <inductionLoop id="loop_-E4_0" lane="-E4_0" pos="5" freq="1" file="iot_detector_output.xml"/>
+  <inductionLoop id="loop_-E4_1" lane="-E4_1" pos="5" freq="1" file="iot_detector_output.xml"/>
+  <inductionLoop id="loop_-E6_0" lane="-E6_0" pos="5" freq="1" file="iot_detector_output.xml"/>
+  <inductionLoop id="loop_-E6_1" lane="-E6_1" pos="5" freq="1" file="iot_detector_output.xml"/>
+</additional>
